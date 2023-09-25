@@ -1,0 +1,22 @@
+ html {
+     font-size: 10px;
+ }
+ h1 {
+     font-size: 5rem;
+     text-transform: capitalize;
+ }
+ h1 + p {
+     font-weight: bold;
+ }
+ p {
+     font-size: 1.5rem;
+     color: red;
+     font-family: 'Croissant One';
+     background-color: aqua;
+ }
+ div{
+     background-color: #31f30a;
+     width: 10em;
+     height: 10em;
+     box-shadow: 5em, 5em, 5em, red;
+    }
