@@ -1,0 +1,52 @@
+h2, h4{
+    color: green;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: red;
+}
+.first{
+    background-color: red;
+}
+.second{
+    background-color: green;
+}
+.third{
+    font-weight: bold;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.para1{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: 50px;
+}
+.para1:hover{
+    background-color: green;
+}
+.par1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+.para2{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    margin-left: 50px;
+}
+.para2:active{
+    background-color: green;
+}
+.par2{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
