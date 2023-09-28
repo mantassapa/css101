@@ -1,0 +1,58 @@
+
+.vardas{
+    display: block;
+    width: 450px;
+    height: 245px;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 30px;
+}
+h1, h6{
+    float: left;
+    width: 150px;
+    margin: 10px;
+}
+img{
+    float: right;
+    margin: 10px;
+    border-radius: 30px;
+}
+main{
+    margin: 30px;
+    border-left: 10px solid;
+    border-top: 2px solid;
+    border-bottom: 5px solid;
+}
+.sektor{
+    width: 800px;
+    height: 400px;
+    background-color: #0e0d0d;
+    padding: 5px;
+}
+.virsus{
+    width: 800px;
+    height: 60px;
+    background-color: aliceblue;
+    margin-bottom: 5px;
+}
+.antra{
+    width: 800px;
+    height: 30px;
+    background-color: azure;
+    margin-bottom: 5px;
+}
+.oner{
+    float:left;
+}
+.one{
+    width: 200px;
+    height: 250px;
+    background-color: aliceblue;
+    margin-right: 5px;
+}
+.two{
+    width: 200px;
+    height: 250px;
+    background-color: aliceblue;
+    margin-right: 5px;
+}

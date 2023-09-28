@@ -1,3 +1,14 @@
+main::before{
+    content: '';
+    background-image: url(../04/photo/neo.jpg);
+    opacity: 25%;
+    position: fixed;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: -1;
+}
 h2, h4{
     color: green;
 }
@@ -49,4 +60,7 @@ span{
     width: 200px;
     height: 200px;
     text-align: center;
+}
+.imige::selection{
+color: white;
 }
