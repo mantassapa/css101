@@ -25,34 +25,237 @@ main{
 }
 .sektor{
     width: 800px;
-    height: 400px;
-    background-color: #0e0d0d;
+    height: 390px;
+    background-color: #242222;
     padding: 5px;
 }
 .virsus{
     width: 800px;
     height: 60px;
-    background-color: aliceblue;
+    background-color: #5d5f5f;
     margin-bottom: 5px;
 }
 .antra{
     width: 800px;
     height: 30px;
-    background-color: azure;
+    background-color: #5d5f5f;
     margin-bottom: 5px;
 }
 .oner{
-    float:left;
+    width: 800px;
+    height: 250px;
+    
 }
 .one{
+    float: left;
     width: 200px;
     height: 250px;
-    background-color: aliceblue;
+    background-color: #5d5f5f;
     margin-right: 5px;
 }
 .two{
+    float:right;
     width: 200px;
     height: 250px;
-    background-color: aliceblue;
-    margin-right: 5px;
+    background-color: #5d5f5f;
+    margin-left: 5px;
+}
+.three{
+    width: 390px;
+    height: 250px;
+    margin-right: 205px;
+    margin-left: 205px;
+    background-color: #5d5f5f;
+    
+}
+.foot{
+    width: 800px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #5d5f5f;
+}
+
+
+/* antra lentele */
+
+
+.sektor2{
+    text-align: center;
+    color: white;
+    width: 800px;
+    height: 450px;
+    margin-left: 5px;
+    background-color: aqua;
+    margin: 5px;
+}
+.he1{
+    width: 800px;
+    height: 70px;
+    background-color: rgb(35, 235, 225);
+}
+.main1{
+    width: 800px;
+    height: 200px;
+    background-color: #5d5f5f;
+}
+.m1{
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(180, 35, 15);
+}
+.m2{
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-color: rgb(31, 167, 26);
+}
+.m3{
+    float: left;
+    width: 25%;
+    height: 200px;
+    background-color: rgb(228, 231, 16);
+}
+.foot1{
+
+    height: 100px;
+    background-color: rgb(150, 47, 150);
+    padding: 5%;
+}
+.f1{
+    float: left;
+    width: 24%;
+    height: 100%;
+    background-color: rgb(202, 107, 19);
+    margin-right: 1%;
+}
+.f2{
+    float: left;
+    width: 24%;
+    height: 100%;
+    background-color: rgb(202, 107, 19);
+    margin-right: 1%;
+}
+.f3{
+    float: left;
+    width: 24%;
+    height: 100%;
+    background-color: rgb(202, 107, 19);
+    margin-right: 1%;
+}
+.f4{
+    float: left;
+    width: 24%;
+    height: 100%;
+    background-color: rgb(202, 107, 19);
+}
+
+/* trecia lentele */
+
+.sektor3{
+    width: 800px;
+    height: 400px;
+    background-color: #ffffff; 
+    color: white;
+}
+.h3{
+    padding: 2%;
+    width: 96%;
+    height: 10%;
+    background-color: rgb(255, 166, 0);
+}
+.he3{
+    float: left;
+    height: 100%;
+    width: 10%;
+    background-color: #d424cc;
+}
+.he32{
+    float: right;
+    height: 100%;
+    width: 15%;
+    background-color: #d4570f;
+}
+.ma3{
+    width: 96%;
+    height: 60%;
+    background-color: #24bad4;
+    padding: 2%;
+}
+.m32{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #d6851a;
+}
+.m33{
+    float: right;
+    width: 65%;
+    height: 40%;
+    background-color: #136877;
+}
+.m34{
+    float: right;
+    width: 65%;
+    height: 40%;
+    background-color: #132e77;
+    margin-top: 2%;
+}
+.fo3{
+    width: 100%;
+    height: 10%;
+    background-color: greenyellow;
+}
+/* ketvirta lentele */
+.sektor4{
+    width: 784px;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 2%;
+    text-align: center;
+    color: white;
+}
+.h4{
+    width: 100%;
+    height: 10%;
+    background-color: #33d424;
+    border-radius: 5px;
+}
+.ma4{
+    width: 98%;
+    height: 68%;
+    background-color: #ffffff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #132e77;
+}
+.m42{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    border-radius: 5px;
+}
+.m43{
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-color: #d6851a;
+    border-radius: 5px;
+}
+.m44{
+    float: left;
+    width: 50%;
+    height: 50%;
+    background-color: #d61ab7;
+    border-radius: 5px;
+}
+.fo4{
+    width: 100%;
+    height: 14%;
+    background-color: #24bad4;
+    border-radius: 5px;
 }
