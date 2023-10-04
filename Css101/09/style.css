@@ -1,0 +1,37 @@
+.pirk{
+    display: inline-block;
+    margin: 10px;
+}
+.pard{
+    display: inline-block;
+    border-bottom: 1px solid;
+}
+.box{
+    width: 600px;
+    height: 400px;
+    background-color: aqua;
+    padding-left: 70px;
+    padding-top: 10px;
+    font-size: x-small;
+}
+.oneline{
+    margin-right: 10px;
+    display: inline-block;
+}
+.oneline1{
+    display: inline-block;
+}
+.oneline2{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.oneline22{
+    display: inline-block;
+}
+.boxi1, .boxi2{
+    width: 250px;
+}
+.boxi3, .boxi4{
+    width: 250px;
+}
