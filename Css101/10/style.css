@@ -1,0 +1,19 @@
+body{
+    background-image: url(../10/foto/ohdear.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    text-align: center;
+    width: 50%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.192);
+    position: relative;
+    top: 200px;
+    left: 25%;
+}
+.text1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(252, 139, 2);
+}
