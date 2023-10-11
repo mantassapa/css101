@@ -17,3 +17,28 @@ body{
     margin-bottom: 0px;
     color: rgb(252, 139, 2);
 }
+@media (max-width:480px){
+    body{
+        background-size:contain;
+        background-repeat: repeat;
+    }
+}
+
+
+
+@media (min-width:481px) and (max-width:768px){
+    body{
+        background-size: contain;
+        background-repeat: repeat;
+    }
+    .box{
+        color: white;
+        text-align: center;
+        width: 50%;
+        height: 120px;
+        background-color: rgba(255, 0, 0, 0.466);
+        position: relative;
+        top: 200px;
+        left: 25%;
+    }
+}

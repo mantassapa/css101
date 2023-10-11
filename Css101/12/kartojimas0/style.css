@@ -1,0 +1,85 @@
+@media (max-width:300px){
+    body{
+        width: 100%;
+        height: 700px;
+        margin: 0px;
+        padding: 2px;
+        background-color: black;
+        border-color: black;
+        text-align: center;
+    }
+    .one{
+        
+        width:100%;
+        height: 20%;
+        background-color: rgb(224, 224, 41);
+    }  
+    .two{
+        
+        width:100%;
+        height: 20%;
+        background-color: rgb(93, 224, 41);
+    }  
+    .three{
+        
+        width:100%;
+        height: 20%;
+        background-color: rgb(224, 145, 41);
+    }  
+    .four{
+        
+        width:100%;
+        height: 20%;
+        background-color: rgb(224, 41, 215);
+    }  
+    .five{
+        
+        width:100%;
+        height: 20%;
+        background-color: rgb(224, 145, 41);
+    }  
+
+}
+@media (min-width:301px){
+  
+    body{
+        width: 100%;
+        height: 500px;
+        margin: 0px;
+        padding: 2px;
+        background-color: black;
+        border-color: black;
+        text-align: center;
+    }
+    .one{
+        float: left;
+        width:50%;
+        height: 70%;
+        background-color: rgb(224, 224, 41);
+    }  
+    .two{
+        float: left;
+        width:50%;
+        height: 70%;
+        background-color: rgb(93, 224, 41);
+    }  
+    .three{
+        float: left;
+        width:33%;
+        height: 30%;
+        background-color: rgb(224, 145, 41);
+    }  
+    .four{
+        float: left;
+        width:34%;
+        height: 30%;
+        background-color: rgb(224, 41, 215);
+    }  
+    .five{
+        float: left;
+        width:33%;
+        height: 30%;
+        background-color: rgb(224, 145, 41);
+    }  
+
+}
