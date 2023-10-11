@@ -1,24 +1,32 @@
 body{
     margin: 0px;
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 0.775);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    font-size: 2em;
 }
 header{
     width: 100%;
     height: 25px;
     background-color: red;
     padding: 5px;
+    margin-bottom: 10px;
+    overflow: hidden;
 }
 .h11{
     float: left;
-    width: 82%;
+    width: 80%;
     height: 100%;
     background-color: aliceblue;
 }
 .tas{
     float: left;
-    width: 10%;
+    width: 12%;
     height: 100%;
     padding-left: 3%;
+    overflow: hidden;
 
 }
 .h2, .h3, .h4{
@@ -29,15 +37,190 @@ header{
     margin-left: 5%;
     border-radius: 10px;
 }
-@media (max-width:400px){
+@media  (max-width:400px){
+    body {
+        text-align: center;
+    }
+    header{
+        display: inline-block;
+        overflow: hidden;
+    }
     .h11{
         float: left;
-        width: 50%;
+        width: 65%;
         height: 100%;
     }
     .tas{
         float: left;
-        width: 50%;
+        width: 25%;
         height: 100%;
     }
+    .head{
+        width: 100%;
+        height: 15%;
+        background-color: rgb(25, 114, 230);
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .m1{
+        width: 100%;
+        height: 28%;
+        background-color: rgb(184, 237, 237);
+    }
+    .m2{
+        width: 100%;
+        height: 13%;
+        background-color: blue;
+    }
+    .m3{
+        width: 100%;
+        height: 13%;
+        background-color: rgb(122, 122, 235);
+    }
+    .m4{
+        width: 100%;
+        height: 13%;
+        background-color: rgb(41, 41, 100);
+    }
+    .m5{
+        width: 100%;
+        height: 13%;
+        background-color: rgb(203, 203, 234);
+    }
+    .m11, .m21, .m31, .m41, .m51{
+        display: none;
+    }
 }
+
+
+/* tableto---------------------------------------------- */
+@media  (min-width:401px) and (max-width:600px){
+    body {
+        text-align: center;
+    }
+    header{
+        display: inline-block;
+        overflow: hidden;
+    }
+    .h11{
+        float: left;
+        width: 70%;
+        height: 100%;
+    }
+    .tas{
+        float: left;
+        width: 25%;
+        height: 100%;
+    }
+    .head{
+        width: 100%;
+        height: 15%;
+        background-color: rgb(25, 114, 230);
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .m1{
+        width: 100%;
+        height: 30%;
+        background-color: rgb(184, 237, 237);
+        float: left;
+    }
+    .m2{
+        width: 50%;
+        height: 25%;
+        background-color: blue;
+        float: left;
+    }
+    .m3{
+        width: 50%;
+        height: 25%;
+        background-color: rgb(122, 122, 235);
+        float: left;
+    }
+    .m4{
+        width: 50%;
+        height: 25%;
+        background-color: rgb(41, 41, 100);
+        float: left;
+    }
+    .m5{
+        width: 50%;
+        height: 25%;
+        background-color: rgb(203, 203, 234);
+        float: left;
+    }
+    .m11, .m21, .m31, .m41, .m51{
+        display: none;
+    }
+}
+
+/* detop----------------------------------- */
+@media  (min-width:601px){
+    body {
+        text-align: center;
+    }
+    header{
+        display: inline-block;
+        overflow: hidden;
+    }
+    .h11{
+        float: left;
+        width: 80%;
+        height: 100%;
+    }
+    .tas{
+        float: left;
+        width: 12%;
+        height: 100%;
+    }
+    .head{
+        width: 100%;
+        height: 15%;
+        background-color: rgb(25, 114, 230);
+    }
+    main{
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+    .m1, .m2, .m3, .m4, .m5{
+        display: none;
+    }
+    .m11{
+        float: left;
+        width: 33%;
+        height: 25%;
+        background-color: rgb(184, 237, 237);
+    }
+    .m21{
+        float: left;
+        width: 34%;
+        height: 25%;
+        background-color: blue;
+    }
+    .m31{
+        float: left;
+        width: 33%;
+        height: 25%;
+        background-color: rgb(122, 122, 235);
+    }
+    .m41{
+        float: left;
+        width: 100%;
+        height: 15%;
+        background-color: rgb(41, 41, 100);
+    }
+    .m51{
+        float: left;
+        width: 100%;
+        height: 40%;
+        background-color: rgb(203, 203, 234);
+    }
+}
+
