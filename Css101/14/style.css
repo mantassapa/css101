@@ -11,6 +11,7 @@ header{
     position:fixed;
     border: solid 1px;
     z-index: 10;
+    overflow: hidden;
 
 }
 .logo{
@@ -165,12 +166,12 @@ h6{
 }
 
 
-/* section ----------------------------------------- */
+/* section three ----------------------------------------- */
 
 section{
     text-align: center;
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 .imige1{
     width: 80%;
@@ -188,4 +189,116 @@ section{
 .la1{
     flex: 1;
     height: 250px;
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 10px;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+.fo1,.fo2,.fo3{
+    color: black;
+    text-decoration: none;
+}
+/* media------------------------------------------ */
+@media(max-width:600px){
+    /* section 0ne mobile------------------------ */
+
+    .art1{
+        height: 1200px;
+    }
+    .g01{
+        width: 70%;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 15%;
+    
+    }
+    .g1, .g2, .g3, .g4, .g5, .g6{
+        width: 100%;
+        height: 200px;
+        background-color: rgb(255, 255, 255);
+        margin-right: 1%;
+        margin-top: 0px;
+        image-resolution: 200px 200px !important;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .g2, .g4, .g6{
+        margin-right: 0%;
+    }
+    .g21,.g22,.g23,.g24,.g25,.g26{
+        width: 100%;
+        height: 100px;
+    
+    }
+    .p1{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        font-size: 1em;
+        text-align: center;
+    }
+
+
+    /* section two mobile---------------------------------- */
+
+    .art2{
+        width: 70%;
+        height: 3000px;
+        margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .h01,.h02{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        flex: 1;
+        text-align: center;
+
+    }
+    .h1,.h2{
+        width: 100%;
+        height: 100%;
+    }
+    .h11{
+        width: 100%;
+        height: 100px;
+    }
+    .p2{
+        
+        font-size: 1em;
+    }
+    h6{
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-size: 1.5em;
+    }
+
+    /* last section mobile------------------------------ */
+    .sect{
+        height: 800px;
+    }
+    .la11{
+        width: 80%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        gap: 0px 20px;
+    }
+    /* footer-mobile */
+    .footer{
+        font-size: 2em;
+    }
+
 }
