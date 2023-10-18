@@ -5,37 +5,26 @@ div{
 }
 .container{
     display: grid;
-    grid-template-columns: repeat(100px);
-    grid-template-rows: repeat(100px);
+    width: 100%;
+    gap: 10px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(5,15vh);
     grid-template-areas: 
-    "c1 c2";
+    "c1 c2 c7 c8 c12 c13 c13 c18"
+    "c3 c3 c9 c8 c14 c14 c19 c18"
+    "c4 c4 c9 c10 c14 c14 c20 c20"
+    "c4 c4 c11 c11 c15 c16 c20 c20"
+    "c5 c6 c11 c11 c15 c17 c20 c20";
 }
 
 p{
     color: white;
 
 }
-
-.c1,.c2{
-    position: relative;
-    height: 100px;
-    width: 100px;
-}
-.c1:hover .m1{
-     opacity: 1;
-}
-.c2:hover .m1{
-    opacity: 1;
-}
-.i1{
-    width: 100px;
-    height: 100px;
-}
-
 .m1{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     top: 0px;
     left: 0px;
     background-color: rgba(0, 0, 0, 0.404);
@@ -43,3 +32,102 @@ p{
 }
 
 
+.c1:hover .m1, .c2:hover .m1, .c3:hover .m1, .c4:hover .m1,
+.c5:hover .m1, .c6:hover .m1, .c7:hover .m1, .c8:hover .m1,
+.c9:hover .m1, .c10:hover .m1, .c11:hover .m1, .c12:hover .m1,
+.c13:hover .m1, .c14:hover .m1, .c15:hover .m1, .c16:hover .m1,
+.c17:hover .m1, .c18:hover .m1, .c19:hover .m1, .c20:hover .m1{
+     opacity: 1;
+}
+.i1{
+    width: 100%;
+    height: 100%;
+}
+.c1,.c2,.c3,.c4,.c5,.c6,.c7,.c8,.c9,.c10,.c11,.c12,.c13,.c14,
+.c15,.c16,.c16,.c17,.c18,.c19,.c20{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+/* first column */
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+    width: 100%;
+}
+.c4{
+    grid-area: c4;
+    width: 100%;
+    height: 100%;
+}
+.c5{
+    grid-area: c5;
+}
+.c6{
+    grid-area: c6;
+}
+/* second column */
+.c7{
+    grid-area: c7;
+}
+.c8{
+    grid-area: c8;
+    width: 100%;
+    height: 100%;
+}
+.c9{
+    grid-area: c9;
+    width: 100%;
+    height: 100%;
+}
+.c10{
+    grid-area: c10;
+}
+.c11{
+    grid-area: c11;
+    width: 100%;
+    height: 100%;
+}
+/* third column */
+.c12{
+    grid-area: c12;
+}
+.c13{
+    grid-area: c13;
+    width: 100%;
+    height: 100%;
+}
+.c14{
+    grid-area: c14;
+    width: 100%;
+    height: 100%;
+}
+.c15{
+    grid-area: c15;
+    width: 100%;
+    height: 100%;
+}
+.c16{
+    grid-area: c16;
+}
+.c17{
+    grid-area: c17;
+}
+.c18{
+    grid-area: c18;
+    width: 100%;
+    height: 100%;
+}
+.c19{
+    grid-area: c19;
+}
+.c20{
+    grid-area: c20;
+    width: 100%;
+    height: 100%;
+}
