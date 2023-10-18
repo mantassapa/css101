@@ -1,0 +1,19 @@
+.container{
+    position: relative;
+}
+
+.p1{
+    grid-area: p1;
+    width: 100px;
+    height: 100px;
+}
+.p1:hover .f1{
+    color: black;
+    background-color: black;
+}
+.f1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+

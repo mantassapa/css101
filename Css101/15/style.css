@@ -87,7 +87,31 @@
     grid-area: c8;
     background-color: rgb(58, 58, 117);
 }
-
+.c9{
+    grid-area: c9;
+    background-color: blueviolet;
+}
+.c10{
+    grid-area: c10;
+    background-color: rgb(109, 0, 160);
+}
+.c11{
+    grid-area: c11;
+    background-color: rgb(94, 25, 73);
+}
+.c12{
+    grid-area: c12;
+    background-color: rgb(155, 43, 90);
+}
+.c13{
+    grid-area: c13;
+    background-color: rgb(78, 78, 105);
+}
+.c14{
+    grid-area: c14;
+    background-color: rgb(192, 186, 192);
+}
+/* ketvirtas ------------------------------------------------- */
 .container4{
     margin-top: 20px;
     display: grid;
@@ -100,4 +124,140 @@
     "c2 c3 c4"
     "c5 c6 c7"
     "c8 c8 c8";
+}
+/* penktas -------------------------------------------------------- */
+.container5{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 5vh 5vh 5vh 5vh;
+    gap: 2px;
+    grid-template-areas: 
+    "c1 c1 c2 c2 c2 c3 c3 c3 c3 c4 c4"
+    "c5 c5 c2 c2 c2 c3 c3 c3 c3 c6 c6"
+    "c7 c7 c8 c9 c9 c3 c3 c3 c3 c10 c10"
+    "c11 c11 c11 c11 c11 c3 c3 c3 c3 c12 c12";
+ 
+}
+/* sestas-------------------------------------------- */
+.container6{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5vh 5vh 5vh 5vh 5vh;
+    gap: 5px;
+    grid-template-areas: 
+    "c1 c2 c2 c3 c4"
+    "c5 c6 c7 c3 c4"
+    "c8 c8 c8 c8 c4"
+    "c9 c9 c10 c11 c4"
+    "c9 c9 c12 c13 c4";
+ 
+}
+/* septintas-------------------------------------------- */
+.container7{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(5vh);
+    gap: 5px;
+    grid-template-areas: 
+    "c1 c1 c1 c1 c6 c6 c7 c7 c10 c10 c10 c10"
+    "c1 c1 c1 c1 c6 c6 c7 c7 c10 c10 c10 c10"
+    "c1 c1 c1 c1 c6 c6 c8 c8 c11 c12 c12 c12"
+    "c1 c1 c1 c1 c6 c6 c8 c8 c11 c12 c12 c12"
+    "c2 c2 c3 c3 c6 c6 c8 c8 c13 c13 c13 c13"
+    "c2 c2 c4 c4 c6 c6 c8 c8 c13 c13 c13 c13"
+    "c2 c2 c4 c4 c6 c6 c8 c8 c13 c13 c13 c13"
+    "c2 c2 c4 c4 c9 c9 c9 c9 c13 c13 c13 c13"
+    "c5 c5 c5 c5 c9 c9 c9 c9 c13 c13 c13 c13"
+    "c5 c5 c5 c5 c9 c9 c9 c9 c13 c13 c13 c13"
+    "c5 c5 c5 c5 c9 c9 c9 c9 c14 c14 c14 c14";
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* arba septintas conteiner dar */
+.container71{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(5vh);
+    gap: 10px;
+}
+.d1{
+    grid-area: 1/1/5/5;
+    background-color: rgb(0, 0, 0);
+}
+.d2{
+    grid-area: 5/1/9/3;
+    background-color: rgb(52, 52, 224);
+}
+.d3{
+    grid-area: 5/3/5/5;
+    background-color: rgb(72, 72, 197);
+}
+.d4{
+    grid-area: 6/3/9/5;
+    background-color: aqua;
+}
+.d5{
+    grid-area: 9/1/13/5;
+    background-color: blueviolet;
+}
+.d6{
+    grid-area: 1/5/8/7;
+    background-color: rgb(168, 43, 226);
+}
+.d7{
+    grid-area: 1/7/2/9;
+    background-color: rgb(226, 43, 171);
+}
+.d8{
+    grid-area: 2/7/8/9;
+    background-color: rgb(58, 58, 117);
+}
+.d9{
+    grid-area: 8/5/13/9;
+    background-color: blueviolet;
+}
+.d10{
+    grid-area: 1/9/2/13;
+    background-color: rgb(109, 0, 160);
+}
+.d11{
+    grid-area: 2/9/3/10;
+    background-color: rgb(94, 25, 73);
+}
+.d12{
+    grid-area: 2/10/3/13;
+    background-color: rgb(155, 43, 90);
+}
+.d13{
+    grid-area: 3/9/12/13;
+    background-color: rgb(78, 78, 105);
+}
+.d14{
+    grid-area: 12/9/13/13;
+    background-color: rgb(192, 186, 192);
 }
