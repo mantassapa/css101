@@ -1,0 +1,14 @@
+.col-md-4{
+    background-color: black;
+    color: white;
+    border: 2px solid green;
+}
+.col-sm-6{
+    background-color: red;
+}
+.row-sm-6{
+    background-color: red;
+}
+.row-sm-3{
+    background-color: red;
+}
