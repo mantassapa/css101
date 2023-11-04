@@ -1,20 +1,15 @@
 .photo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
-
 .photo__p {
   opacity: 0.5;
   background-color: black;
   border-radius: 20px;
 }
-
 .photo__p:hover {
   opacity: 1;
 }
-
 .photo__b {
   background-color: black;
   width: 100vh;
@@ -23,12 +18,9 @@
 
 .phototwo {
   margin-top: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   gap: 10px;
 }
-
 .phototwo__p {
   opacity: 0.5;
 }
@@ -39,13 +31,8 @@ body {
 
 @media (max-width: 800px) {
   .photo {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .photo__b {
     background-color: black;
@@ -53,14 +40,8 @@ body {
   }
   .phototwo {
     margin-top: 10px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
     gap: 10px;
   }
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,57 @@
+body{
+    background-image: url(/Css101/atsisk/02/foto/lake.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}    
+.back{
+    background-image: url(/Css101/atsisk/02/foto/clouds.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    width: 200px;
+    height: 200px;
+    animation: myframes 5s infinite;
+
+}
+@keyframes myframes {
+    0%{
+        margin-left: -300px;
+    }
+    100%{
+       margin-left: 100%;
+    }
+}
+.object{
+    background-image: url(/Css101/atsisk/02/foto/yes.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    width: 200px;
+    height: 300px;
+    animation: plane 10s infinite;
+    margin-top: 10%;
+}
+@keyframes plane{
+    0%{
+    margin-left: 100%;
+    }
+    30%{
+        margin-top: 10%;
+    }
+    50%{
+        margin-top: 30%;
+        margin-left: 0px;
+    }
+    100%{
+        margin-left:100%;
+    }
+}
+
+/* saule ir menulis */
+

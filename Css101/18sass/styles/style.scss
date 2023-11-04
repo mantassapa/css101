@@ -1,0 +1,59 @@
+@use "index" as *;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    @include padding-border(2,7,30);
+
+    background-color: $bg-color;
+    min-height: to-rem(500);
+    max-width: to-rem(500);
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 20px;
+
+    @media(min-width: $media-sm) {
+        // background-color: $color;
+        @include box-design(rgb(85, 5, 5), $color)
+    }
+    @media(min-width: $media-md){
+        // background-color: $bg-color;
+        @include box-design(rgb(24, 16, 16), $bg-color)
+    }
+    @media(min-width: $media-lg){
+        background-color: $color;
+    }
+
+    &_image{
+        width: 100%;
+    }
+    &_text{
+        padding: dynamic-spacer($media-sm, 2);
+
+        @media(min-width: $media-md){
+            padding: dynamic-spacer($media-md, 1) dynamic-spacer($media-md, 3);
+        }
+        @media(min-width: $media-lg){
+            padding: dynamic-spacer($media-lg, 1) dynamic-spacer($media-lg, 5);
+        }
+    }
+    &_buttons{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    &_button{
+        @include padding-border(2,10,30);
+
+        &--submit{
+            @include box-design(green, white);
+        }
+        &--cancel{
+            @include box-design(rgb(176, 16, 131), white);
+    }
+    }
+
+}

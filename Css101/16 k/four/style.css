@@ -1,0 +1,31 @@
+.boxone{
+    width: 200px;
+    height: 200px;
+    margin-left: 50%;
+    padding-top: 50px;
+}
+
+.txt1,.txt2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.txt1{
+    width: 100px;
+    border-right: 2px solid;
+    animation: txt1 0.5s,
+                txt11 3s;
+}
+@keyframes txt1{
+    from{border-right-color: rgb(0, 0, 0);}
+    to{border-right-color: rgb(255, 255, 255);}
+}
+@keyframes txt11{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 100px;
+    }
+}

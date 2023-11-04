@@ -1,0 +1,15 @@
+@use "veriables" as *;
+
+@function to-rem($pixels){
+    @return calc($pixels / 16) + rem;
+}
+
+@function dynamic-spacer($media, $space){
+    @if ($media > $media-lg){
+        @return $space * 20 + px;
+    }@else if($media > $media-md and $media < $media-lg){
+        @return $space * 10 + px;
+    }@else {
+        @return $space * 5 + px;
+    }
+}

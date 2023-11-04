@@ -1,0 +1,93 @@
+html{
+    width: 1200px;
+    height:700px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url(/Css101/atsisk/02/foto/lake.png);   
+}
+
+body{
+    position: absolute;
+    width: 1200px;
+    height: 700px;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-left: 0px;
+    animation: back 10s infinite;
+    display: flex;
+
+}    
+@keyframes back{
+    0%{
+        background-color: rgba(0, 0, 0, 0);
+    }
+    50%{
+        background-color: rgba(0, 0, 0, 0.753);
+    }
+
+}
+.sb,.mb{
+    width: 50%;
+}
+.sun{
+    background-image: url(/Css101/atsisk/02/foto/what.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    animation: sun 10s infinite;
+
+}
+@keyframes sun {
+    0%{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    50%{
+        margin-top: 200px;
+        margin-left: 100%;
+        opacity: 0;
+    }
+    100%{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+}
+.moon{
+    background-image: url(/Css101/atsisk/02/foto/clouds.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    animation: moon 10s infinite;
+
+}
+@keyframes moon {
+
+    0%{
+        margin-top: 200px;
+        margin-left: 0%;
+        opacity: 0;
+       
+    }
+    50%{
+        margin-top: 10px;
+        margin-left: 80%;
+        opacity: 1;
+
+    }
+    100%{
+        margin-top: 200px;
+        margin-left: 0%;
+        opacity: 0;
+       
+    }
+}
